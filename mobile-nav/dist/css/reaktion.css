@@ -1,0 +1,146 @@
+.navmain #horz-nav-ul {
+  position: relative;
+  display: block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+.navmain #horz-nav-ul ul.sf-menu {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  position: relative;
+  margin-top: 0;
+}
+.navmain #horz-nav-ul ul.sf-menu li {
+  float: left;
+  *display: inline;
+  zoom: 1;
+  position: relative;
+}
+.navmain #horz-nav-ul ul.sf-menu li span.arrow {
+  display: block;
+  /* "display:none" to hide arrows for the non-mobile nav */
+  position: absolute;
+  top: 32px;
+  color: #ffffff;
+  width: 20px;
+  left: 50%;
+  margin-left: -10px;
+  text-align: center;
+  font-size: 7px;
+  z-index: 5;
+  cursor: pointer;
+}
+.navmain #horz-nav-ul ul.sf-menu li a {
+  display: block;
+  color: #ffffff;
+  padding: 15px 20px;
+  background: #464646;
+  border-bottom: 1px solid #535353;
+  text-decoration: none;
+}
+.navmain #horz-nav-ul ul.sf-menu li ul {
+  list-style: none;
+  padding: 0;
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 160px;
+}
+.navmain #horz-nav-ul ul.sf-menu li ul li {
+  width: 160px;
+}
+.navmain #horz-nav-ul ul.sf-menu li ul li a {
+  background: #535353;
+  border-bottom: 1px solid #606060;
+  display: block;
+  padding: 15px;
+}
+.navmain #horz-nav-ul ul.sf-menu li ul li a:hover {
+  background: #606060;
+}
+.navmain #horz-nav-ul ul.sf-menu li:hover a {
+  background: #535353;
+}
+.navmain #horz-nav-ul ul.sf-menu li:hover a:hover {
+  background: #535353;
+}
+.navmain #horz-nav-ul ul.sf-menu li:hover ul {
+  display: block;
+}
+.navmain #horz-nav-ul ul.sf-menu li:hover ul a {
+  background: #535353;
+}
+.navmain #horz-nav-ul ul.sf-menu li:hover ul a:hover {
+  background: #606060;
+}
+.navmain #horz-nav-ul .navmain #horz-nav-ul-bars {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #464646;
+  font-size: 24px;
+  cursor: pointer;
+}
+.navmain #horz-nav-ul .navmain #horz-nav-ul-bars i {
+  font-weight: bold;
+}
+.navmain #horz-nav-ul.mobile {
+  width: 100%;
+  padding-top: 50px;
+}
+.navmain #horz-nav-ul.mobile ul {
+  display: none;
+}
+.navmain #horz-nav-ul.mobile ul li {
+  width: 100%;
+  float: none;
+}
+.navmain #horz-nav-ul.mobile ul li span.arrow {
+  display: block;
+  top: 6px;
+  font-size: 16px;
+  margin: 0;
+  right: 2px;
+  left: auto;
+  padding: 10px;
+}
+.navmain #horz-nav-ul.mobile ul li span.arrow:hover {
+  color: #aaa;
+}
+.navmain #horz-nav-ul.mobile ul li span.arrow.arrow-rotate {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.navmain #horz-nav-ul.mobile ul li a {
+  padding: 15px;
+}
+.navmain #horz-nav-ul.mobile ul li ul {
+  position: static;
+  width: 100%;
+}
+.navmain #horz-nav-ul.mobile ul li ul li {
+  width: 100%;
+}
+.navmain #horz-nav-ul.mobile ul li:hover a {
+  background: #464646;
+  border-bottom: 1px solid #606060;
+}
+.navmain #horz-nav-ul.mobile ul li:hover a:hover {
+  background: #535353;
+}
+.navmain #horz-nav-ul.mobile ul li:hover ul {
+  display: none;
+}
+.navmain #horz-nav-ul.mobile ul li:hover ul a {
+  background: #535353;
+}
+.navmain #horz-nav-ul.mobile ul li:hover ul a:hover {
+  background: #606060;
+}
+.navmain #horz-nav-ul.mobile .navmain #horz-nav-ul-bars {
+  display: block;
+}

@@ -1,0 +1,2 @@
+[10-Jun-2014 15:03:42] PHP Fatal error:  Call to a member function setSuccessMessage() on a non-object in /home/johnmax/public_html/contact-form/config.php on line 7
+[10-Jun-2014 15:03:43] PHP Fatal error:  Call to a member function setSuccessMessage() on a non-object in /home/johnmax/public_html/contact-form/config.php on line 7

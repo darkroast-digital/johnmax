@@ -1,0 +1,4 @@
+[10-Jun-2014 15:05:58] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Loggers/ArrayLogger.php on line 17
+[10-Jun-2014 15:05:58] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Loggers/EchoLogger.php on line 18
+[10-Jun-2014 15:05:59] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Loggers/ArrayLogger.php on line 17
+[10-Jun-2014 15:06:00] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Loggers/EchoLogger.php on line 18

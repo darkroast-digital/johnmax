@@ -1,0 +1,22 @@
+{% extends 'layouts/app.twig' %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+
+<form action="{{ path_for('auth.login') }}" method="post" class="form__auth">
+    <grid>
+        <column is12>
+        <div class="field field__icon field__username">
+            <input class="field__input"type="text" name="username" id="username" placeholder="Username">
+        </div>
+        </column>
+        <column is12>
+        <div class="field field__icon field__password">
+            <input class="field__input"type="password" name="password" id="password" placeholder="Password">
+        </div>
+        </column>
+        <button type="submit">Send</button>
+    </grid>
+</form>
+
+{% endblock %}

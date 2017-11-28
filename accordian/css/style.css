@@ -1,0 +1,170 @@
+ul.accordion{
+    list-style:none;   
+    right:80px;
+    margin-top:100px;
+    font-size: 16px;
+    font-style: italic;
+    line-height: normal;
+}
+ul.accordion li{
+    float:right;
+    width:100px;
+    height:100%;!important
+    display:block;
+    
+    background-image:url(../../images/opacity-90-rep.png);
+	background-repeat: repeat;
+    position:relative;
+    overflow: hidden;
+    cursor:pointer;
+    -moz-box-shadow:1px 3px 15px #000;
+    -webkit-box-shadow:1px 3px 15px #000;
+    box-shadow:1px 3px 15px #000;
+	
+
+	margin:0px;
+	padding:0px;
+	line-height:normal;
+	word-wrap:normal;
+}
+ul.accordion li.bg1{
+    background-image:url(../images/1.jpg);
+}
+ul.accordion li.bg2{
+    background-image:url(../images/2.jpg);
+}
+ul.accordion li.bg3{
+    background-image:url(../../images/home-li-bg.png);
+}
+ul.accordion li.bg4{
+    background-image:url(../../images/opacity-90-rep.png);
+	background-repeat: repeat; 
+}
+
+
+ul.accordion li.bg4 h1 {
+	font-size: 29px;
+	color:#FFFFFF;
+	padding: 0px 0 0 10px;
+	margin-bottom: 0px;
+	line-height: 36px;
+	font-style:normal;
+}
+
+ul.accordion li.bg4 h3 {
+	color: #D66F5E;
+	font-size: 19px;
+	margin: 0 0 0 10px;
+	font-style="normal;
+}
+ul.accordion li.bg4 p {
+	font-size: 14px;
+	margin: 0 0 0 10px;
+	padding:15px;
+	width:100%;
+	display:inline
+}
+ul.accordion li.bg4 div{
+	margin: 15px 0 15px 10px;
+	width:90%;
+	float:left;
+	display:inline;
+	font-weight: normal;
+	font-style:normal;
+}
+ul.accordion li.bleft{
+    
+	width:35%;
+	height: 100%;!important
+}
+ul.accordion li.bleft div{
+	width:460px;
+}
+ul.accordion li.bg4 .heading{
+    background-color:#000000;
+    padding:10px;
+    margin-top:60px;
+    text-transform:none;
+    font-style:normal;
+    font-weight:bold;
+    letter-spacing:1px;
+    font-size:20px;
+    color:#ffffff;
+    text-align:center;
+    text-shadow:-1px -1px 1px #ccc;
+}
+ul.accordion li .heading{
+	background-color:#D04227;
+	border: 1px solid #fff;
+	padding:10px;
+	margin-top:25px;
+	text-transform:uppercase;
+	font-style:normal;
+	font-weight:bold;
+	letter-spacing:1px;
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+	text-shadow:-1px -1px 1px #ccc;
+}
+
+ul.accordion li .description{
+    position:absolute;
+    width:475px;
+    height:400px;
+    top:20px;
+    left:0px;
+    display:none;
+	word-wrap:normal;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	color:#000;
+}
+ul.accordion li .description h2{
+	text-transform:uppercase;
+	font-style:normal;
+	font-weight:bold;
+	letter-spacing:1px;
+	font-size:26px;
+	color:#ffffff;
+	text-align:left;
+	margin:0px 0px 0px 20px;
+	-webkit-text-shadow:3px 3px 3px #000; /* for chrome */
+	-text-shadow:3px 3px 3px #000; /* for all browser*/
+	text-shadow:3px 3px 3px #000; /* same as above*/
+	-moz-text-shadow:3px 3px 3px #000; /* for firefox */
+	-o-text-shadow:3px 3px 3px #000; /* for opera */
+	-ms-text-shadow:3px 3px 3px #000; /* for ie 9+ */
+	-khtml-text-shadow:3px 3px 3px #000; /* for gecko based browser*/
+}
+ul.accordion li .description p{
+	margin:2px 10px 2px 10px;
+	padding:0px;
+	font-size: 15px;
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: normal;
+	color: #000000;
+}
+ul.accordion li .description p a{
+    position:absolute;
+    left:20px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size:13px;
+    text-decoration:none;
+    color:#D84E2A;
+}
+ul.accordion li .description a:hover{
+    color:#333;
+    text-decoration:underline;
+}
+ul.accordion li .bgDescription{
+	background:transparent url(../images/bgDescription.png) repeat-x top left;
+	height:400px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	display:none;
+}

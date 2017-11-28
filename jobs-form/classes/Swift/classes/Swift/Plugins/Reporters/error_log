@@ -1,0 +1,4 @@
+[10-Jun-2014 15:06:00] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Reporters/HitReporter.php on line 20
+[10-Jun-2014 15:06:00] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Reporters/HtmlReporter.php on line 20
+[10-Jun-2014 15:06:01] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Reporters/HitReporter.php on line 20
+[10-Jun-2014 15:06:01] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Reporters/HtmlReporter.php on line 20

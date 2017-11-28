@@ -1,0 +1,14 @@
+[10-Jun-2014 15:05:55] PHP Fatal error:  Interface 'Swift_Mime_Header' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/AbstractHeader.php on line 21
+[10-Jun-2014 15:05:55] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/DateHeader.php on line 20
+[10-Jun-2014 15:05:55] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/IdentificationHeader.php on line 21
+[10-Jun-2014 15:05:55] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 20
+[10-Jun-2014 15:05:56] PHP Fatal error:  Class 'Swift_Mime_Headers_UnstructuredHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/ParameterizedHeader.php on line 23
+[10-Jun-2014 15:05:56] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/PathHeader.php on line 20
+[10-Jun-2014 15:05:56] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/UnstructuredHeader.php on line 21
+[10-Jun-2014 15:05:56] PHP Fatal error:  Interface 'Swift_Mime_Header' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/AbstractHeader.php on line 21
+[10-Jun-2014 15:05:56] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/DateHeader.php on line 20
+[10-Jun-2014 15:05:56] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/IdentificationHeader.php on line 21
+[10-Jun-2014 15:05:56] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 20
+[10-Jun-2014 15:05:57] PHP Fatal error:  Class 'Swift_Mime_Headers_UnstructuredHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/ParameterizedHeader.php on line 23
+[10-Jun-2014 15:05:57] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/PathHeader.php on line 20
+[10-Jun-2014 15:05:57] PHP Fatal error:  Class 'Swift_Mime_Headers_AbstractHeader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/Headers/UnstructuredHeader.php on line 21

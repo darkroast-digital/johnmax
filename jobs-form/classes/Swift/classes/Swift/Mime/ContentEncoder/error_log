@@ -1,0 +1,6 @@
+[10-Jun-2014 15:05:53] PHP Fatal error:  Class 'Swift_Encoder_Base64Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php on line 23
+[10-Jun-2014 15:05:53] PHP Fatal error:  Interface 'Swift_Mime_ContentEncoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php on line 22
+[10-Jun-2014 15:05:53] PHP Fatal error:  Class 'Swift_Encoder_QpEncoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php on line 23
+[10-Jun-2014 15:05:54] PHP Fatal error:  Class 'Swift_Encoder_Base64Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php on line 23
+[10-Jun-2014 15:05:54] PHP Fatal error:  Interface 'Swift_Mime_ContentEncoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php on line 22
+[10-Jun-2014 15:05:54] PHP Fatal error:  Class 'Swift_Encoder_QpEncoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php on line 23

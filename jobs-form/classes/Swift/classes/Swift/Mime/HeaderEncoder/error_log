@@ -1,0 +1,4 @@
+[10-Jun-2014 15:05:54] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/HeaderEncoder.php on line 19
+[10-Jun-2014 15:05:54] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/HeaderEncoder.php on line 19
+[10-Jun-2014 15:05:55] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/HeaderEncoder.php on line 19
+[10-Jun-2014 15:05:55] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mime/HeaderEncoder.php on line 19

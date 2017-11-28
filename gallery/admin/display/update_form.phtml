@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<title>Website Gallery - Admin Control Panel</title>
+	<link href="css/login.css" rel='stylesheet' type='text/css' />
+	<link href="css/button.css" rel='stylesheet' type='text/css' />
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/button.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+	<script type="text/javascript">
+
+		function positionLoginForm () {
+			// center the login box.
+			var boxHeight = $('#global_container_login').height();
+			var boxWidth = $('#global_container_login').width();
+
+			var documentHeight = $(document).height();
+			var documentWidth= $(document).width();
+
+
+			var positionTop = (documentHeight/2) - (boxHeight/2) - (documentHeight*0.1);
+			var positionLeft = (documentWidth/2) - (boxWidth/2);
+
+
+			$('#global_container_login').css('top', positionTop + 'px');
+			$('#global_container_login').css('left', positionLeft + 'px');
+
+		}
+
+		$(document).ready(function() {
+			$('#message').hide();
+
+			positionLoginForm();
+
+			$("#update_button").bind('button_click', function() {
+			$.post('action.php', {'wg_action': 'update'},
+				function(json){
+					if(!json.success) {
+						if(!(typeof json.fullmsg != 'undefined' && json.fullmsg == true)) {
+							json.error = 'MySQL Said: ' + json.error;
+						}
+						showMessage('Error: Unable to update.<br/>' + json.error);
+						return;
+					} else {
+						alert('Website Gallery has been successfully updated! You\'ll now be redirected to the Control Panel interface.');
+						window.location = "index.php";
+					}
+
+				}, 'json');
+			});
+
+			var messageString = '{%message}';
+			if(messageString.length > 5) {
+			//	showMessage(messageString);
+			} else {
+			/*	$('#message')
+				.css('position', 'absolute')
+				.css('top', '50px')
+				.css('left', '5px')
+				.slideDown();
+*/
+			}
+		});
+
+		function showMessage (message) {
+
+			$('#message').html(message);
+			$('#message')
+				.css('position', 'absolute')
+				.css('top', '50px')
+				.css('left', '5px')
+				.removeClass('normalmsg')
+				.slideDown();
+
+			$('dl').css('padding-top', '0');
+
+			resetButton('#update_button');
+		}
+
+
+
+		$(window).resize(positionLoginForm);
+
+	</script>
+</head>
+<body>
+	<div id="global_container_login" class="update_form">
+		<div id="login_form" >
+
+			<div id="message" style="display: none;" class="normalmsg"></div>
+
+			<p>
+				It looks like you just updated Website Gallery!</p>
+
+				<p>A few database changes were made between your last version and this version, so these changes need to be applied. It's a quick process, just click the Update button to continue.
+			</p><br />
+			<p style="text-align: center;"><strong>Update:</strong> {%oldversion} <img src="images/update_arrow.png" /> {%newversion}</p>
+			<div id="update_button_container">
+			<div class="button button-install" id="update_button"><div class="button-icon-bg" ><div class="button-icon"></div><div class="button-icon-loading" style="display: none;" ></div></div><div class="label">Apply Update</div><div class="right-side-button"></div></div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

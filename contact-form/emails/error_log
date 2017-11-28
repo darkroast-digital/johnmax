@@ -1,0 +1,8 @@
+[10-Jun-2014 15:04:32] PHP Fatal error:  Using $this when not in object context in /home/johnmax/public_html/contact-form/emails/autoreply-html.php on line 7
+[10-Jun-2014 15:04:32] PHP Fatal error:  Call to a member function getSubject() on a non-object in /home/johnmax/public_html/contact-form/emails/autoreply-plain.php on line 1
+[10-Jun-2014 15:04:33] PHP Fatal error:  Using $this when not in object context in /home/johnmax/public_html/contact-form/emails/email-html.php on line 7
+[10-Jun-2014 15:04:33] PHP Fatal error:  Using $this when not in object context in /home/johnmax/public_html/contact-form/emails/email-plain.php on line 4
+[10-Jun-2014 15:04:33] PHP Fatal error:  Using $this when not in object context in /home/johnmax/public_html/contact-form/emails/autoreply-html.php on line 7
+[10-Jun-2014 15:04:34] PHP Fatal error:  Call to a member function getSubject() on a non-object in /home/johnmax/public_html/contact-form/emails/autoreply-plain.php on line 1
+[10-Jun-2014 15:04:34] PHP Fatal error:  Using $this when not in object context in /home/johnmax/public_html/contact-form/emails/email-plain.php on line 4
+[10-Jun-2014 15:04:34] PHP Fatal error:  Using $this when not in object context in /home/johnmax/public_html/contact-form/emails/email-html.php on line 7

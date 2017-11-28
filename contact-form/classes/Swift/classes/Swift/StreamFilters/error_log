@@ -1,0 +1,6 @@
+[10-Jun-2014 15:05:45] PHP Fatal error:  Interface 'Swift_StreamFilter' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php on line 20
+[10-Jun-2014 15:05:45] PHP Fatal error:  Interface 'Swift_StreamFilter' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/StreamFilters/StringReplacementFilter.php on line 18
+[10-Jun-2014 15:05:45] PHP Fatal error:  Interface 'Swift_ReplacementFilterFactory' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/StreamFilters/StringReplacementFilterFactory.php on line 20
+[10-Jun-2014 15:05:46] PHP Fatal error:  Interface 'Swift_StreamFilter' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php on line 20
+[10-Jun-2014 15:05:46] PHP Fatal error:  Interface 'Swift_StreamFilter' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/StreamFilters/StringReplacementFilter.php on line 18
+[10-Jun-2014 15:05:46] PHP Fatal error:  Interface 'Swift_ReplacementFilterFactory' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/StreamFilters/StringReplacementFilterFactory.php on line 20

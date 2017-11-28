@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<title>Website Gallery - Admin Control Panel</title>
+	<link href="css/login.css" rel='stylesheet' type='text/css' />
+	<link href="css/button.css" rel='stylesheet' type='text/css' />
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.css" />
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/button.js"></script>
+
+	<script type="text/javascript">
+
+		function positionLoginForm () {
+			// center the login box.
+			var boxHeight = $('#global_container_login').height();
+			var boxWidth = $('#global_container_login').width();
+
+			var documentHeight = $(document).height();
+			var documentWidth= $(document).width();
+
+
+			var positionTop = (documentHeight/2) - (boxHeight/2) - (documentHeight*0.1);
+			var positionLeft = (documentWidth/2) - (boxWidth/2);
+
+
+			$('#global_container_login').css('top', positionTop + 'px');
+			$('#global_container_login').css('left', positionLeft + 'px');
+
+		}
+
+		$(document).ready(function () {
+
+			positionLoginForm();
+
+			$("#submit_login_button").bind('button_click', function() {
+				$('#message').hide();
+
+				$('#login_form_element').submit();
+			});
+
+			var messageString = '{%message}';
+			if(messageString.length > 5) {
+				showMessage(messageString);
+			} else {
+				$('#message').hide();
+			}
+
+
+			$('#login_form_element').bind('submit', function() {
+				buttonDown('#submit_login_button');
+			});
+		});
+
+		function showMessage (message) {
+			if(message.length == 0) {
+				message = "Oops! That username and password combination doesn't exist!";
+			}
+
+			$('#message').html(message);
+			$('#message')
+				.css('position', 'absolute')
+				.css('top', '101px')
+				.css('left', '5px')
+				.slideDown();
+
+			$('#submit_login_button').trigger('button_reset');
+		}
+
+
+
+		$(window).resize(positionLoginForm);
+
+	</script>
+</head>
+<body>
+	<div id="global_container_login">
+		<div id="login_form" class="login_page">
+
+			<div id="message" style="display: none;"></div>
+			<form action="index.php" method="post" id="login_form_element">
+				<input type="hidden" name="submit_login" id="submit_login" value="yes" />
+			<dl>
+				<dt><label for="username">Username</label></dt>
+				<dd><input type="text" name="username" id="username" value="" ></dd>
+				<dt><label for="password">Password</label></dt>
+				<dd><input type="password" name="password" id="password"></dd>
+
+				<dd class="submit_row"><div class="button button-login" id="submit_login_button"><div class="button-icon-bg" ><div class="button-icon"></div><div class="button-icon-loading" style="display: none;" ></div></div><div class="label">Login</div><div class="right-side-button"></div></div></dd>
+				<input type="submit" style="display: none">
+			</dl>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

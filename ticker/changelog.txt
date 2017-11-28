@@ -1,0 +1,18 @@
+Changelog
+
+1.0.0 - April 23, 2012
+- Initial release
+
+1.0.1 - April 26, 2012
+- Fixed a bug in the reveal animation
+- Tweaked the default Twitter format
+
+1.1 - 
+- Display URLs, user mentions and hashtags within tweets as links. Can be turned off by setting 'parseTwitterLinks' to false.
+- HTML within the reveal animation now works, with one caveat -- nested HTML elements will break the animation.
+- Prevent feed caching by setting 'noCache' to true. Note that this will have a performance impact.
+- Quickly display your latest Pinterest pins and Tumblr posts using six new settings: 'pinterest', 'pinterestFormat', 'pinterestCount', 'tumblr', 'tumblrFormat', 'tumblrCount'
+- Fixed incorrect link for Twitter %link% variable
+- Correction in documentation
+
+

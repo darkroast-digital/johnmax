@@ -1,0 +1,6 @@
+[10-Jun-2014 15:06:07] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php on line 22
+[10-Jun-2014 15:06:07] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php on line 22
+[10-Jun-2014 15:06:07] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php on line 22
+[10-Jun-2014 15:06:09] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php on line 22
+[10-Jun-2014 15:06:09] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php on line 22
+[10-Jun-2014 15:06:09] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php on line 22

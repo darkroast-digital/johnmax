@@ -1,0 +1,143 @@
+.button {
+		background-image: url('../images/button.png');
+		height: 35px;
+		background-position: 0 0;
+		margin: 5px 20px 5px 5px;
+		float: left;
+	}
+	
+.button-disabled {
+	background-position: 0 -35px !important;
+}
+.button-disabled .label {
+	color: #969696 !important;
+}
+.button-disabled .right-side-button {
+	background-position: -342px -35px !important;
+}
+	
+	.button .label {
+		height: 26px;
+		margin-top: 10px;
+		margin-left: 8px;
+		float: left;
+		font-weight: bold;
+		color: #1D76B8;
+		background-repeat: no-repeat;
+		cursor: default;
+	}
+	
+	.button-pushed .label {
+		color: #969696;
+	}
+	
+	.button .button-icon {
+		width: 26px;
+		height: 26px;
+		background-image: url('../images/button_icons.png');
+		background-position: 0 -26px;
+	}
+	
+	.button .button-icon-loading {
+		background-position: 5px 6px;
+		background-repeat: no-repeat;
+		width: 26px;
+		height: 26px;
+	}
+	
+	.button .button-icon-bg {
+		float: left;
+		width: 26px;
+		height: 26px;
+		margin: 5px 0 0 10px;
+		background-image: url('../images/button_icons.png');
+	}
+	
+	.button-key .button-icon {
+		background-position: 0 -26px;
+	}
+	
+	.button-new-album .button-icon {
+		background-position: 0 -52px;
+	}
+
+	.button-auth-user-disabled .button-icon {
+		background-position: 0 -208px;
+	}
+	
+	.button-new-album-disabled .button-icon {
+		background-position: 0 -234px;
+	}
+
+	.button-login .button-icon {
+		background-position: 0 -78px;
+	}
+
+	.button-save .button-icon {
+		background-position: 0 -104px;
+	}
+
+	.button-continue .button-icon {
+		background-position: 0 -156px;
+	}
+
+
+	.button-page-user .button-icon {
+		background-position: 0 -182px;
+	}
+
+	
+	.button-install .button-icon {
+		background-position: 0 -130px;
+	}
+
+	.button-facebook .button-icon {
+		background-position: 0 -260px;
+	}
+
+	.button-verify .button-icon {
+		background-position: 0 -286px;
+	}
+
+	.button-add-pictures .button-icon {
+		background-position: 0 -312px;
+	}
+
+	.right-side-button {
+		width: 15px;
+		background-image: url('../images/button.png');
+		background-position: -342px 0;
+		height: 30px;
+		float: right;
+		margin-right: -20px;
+		color: #757575;
+		padding: 5px 10px 0 0;
+		cursor: default;
+		font-size: 16px;
+		font-family: arial;
+	}
+	
+	.button-popup-menu {
+		position: absolute;
+		display: none;
+		border: 1px solid #DADADA;
+		background-image: url('../images/popup_menu_bg.png');
+		background-repeat: repeat-x;
+		background-color: #FAFAFA;
+		border-bottom: none;
+		padding: 0;
+		
+	}
+	
+	.button-popup-menu a {
+		display: block;
+		
+		color: #1D76B8;
+		text-decoration: none;
+		padding: 7px;
+		border-bottom:  1px solid #DADADA;
+	}
+	
+	.button-popup-menu a:hover {
+		background-color: #EDEDED;
+	}

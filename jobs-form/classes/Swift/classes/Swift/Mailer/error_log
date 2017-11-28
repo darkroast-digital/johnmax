@@ -1,0 +1,2 @@
+[10-Jun-2014 15:05:36] PHP Fatal error:  Interface 'Swift_Mailer_RecipientIterator' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mailer/ArrayRecipientIterator.php on line 20
+[10-Jun-2014 15:05:38] PHP Fatal error:  Interface 'Swift_Mailer_RecipientIterator' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Mailer/ArrayRecipientIterator.php on line 20

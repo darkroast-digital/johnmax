@@ -1,0 +1,6 @@
+[10-Jun-2014 15:05:28] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/CharacterReader/GenericFixedWidthReader.php on line 21
+[10-Jun-2014 15:05:28] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/CharacterReader/UsAsciiReader.php on line 20
+[10-Jun-2014 15:05:29] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/CharacterReader/Utf8Reader.php on line 21
+[10-Jun-2014 15:05:29] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/CharacterReader/GenericFixedWidthReader.php on line 21
+[10-Jun-2014 15:05:29] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/CharacterReader/UsAsciiReader.php on line 20
+[10-Jun-2014 15:05:30] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/CharacterReader/Utf8Reader.php on line 21

@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<title>Website Gallery - Admin Control Panel</title>
+	<link href="css/login.css" rel='stylesheet' type='text/css' />
+	<link href="css/button.css" rel='stylesheet' type='text/css' />
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/button.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+	<script type="text/javascript">
+
+		function positionLoginForm () {
+			// center the login box.
+			var boxHeight = $('#global_container_login').height();
+			var boxWidth = $('#global_container_login').width();
+
+			var documentHeight = $(document).height();
+			var documentWidth= $(document).width();
+
+
+			var positionTop = (documentHeight/2) - (boxHeight/2) - (documentHeight*0.1);
+			var positionLeft = (documentWidth/2) - (boxWidth/2);
+
+
+			$('#global_container_login').css('top', positionTop + 'px');
+			$('#global_container_login').css('left', positionLeft + 'px');
+
+		}
+
+		$(document).ready(function () {
+
+			positionLoginForm();
+
+	$('#message')
+				.css('position', 'absolute')
+				.css('top', '100px')
+				.css('left', '5px')
+				.slideDown();
+
+		});
+
+		$(window).resize(positionLoginForm);
+
+	</script>
+</head>
+<body>
+	<div id="global_container_login">
+		<div id="login_form">
+
+			<div id="message" >Error: Unable to connect to the database.</div>
+			<p style="padding:10px;">{%message}</p>
+		</div>
+	</div>
+</body>
+</html>

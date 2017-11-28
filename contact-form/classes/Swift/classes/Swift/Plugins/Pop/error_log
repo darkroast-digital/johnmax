@@ -1,0 +1,2 @@
+[10-Jun-2014 15:05:59] PHP Fatal error:  Class 'Swift_IoException' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Pop/Pop3Exception.php on line 21
+[10-Jun-2014 15:06:00] PHP Fatal error:  Class 'Swift_IoException' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Plugins/Pop/Pop3Exception.php on line 21

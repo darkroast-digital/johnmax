@@ -1,0 +1,55 @@
+{% extends 'layouts/app.twig' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<grid classes="">
+<column is4>
+<h6>Input Fields</h6>
+<div class="field">
+    <input class="field__input"type="text" name="name" id="name" placeholder="Placeholder">
+</div>
+<div class="field field__icon">
+    <input class="field__input" type="text" name="name" id="name" placeholder="Placeholder">
+</div>
+
+<div class="field field__required">
+    <input class="field__input" type="text" name="name" id="name" placeholder="Placeholder" required>
+</div>
+
+<div class="field">
+    <input class="field__input field__input--success"type="text" name="name" id="name" placeholder="Placeholder">
+</div>
+<div class="field field__icon">
+    <input class="field__input field__input--success" type="text" name="name" id="name" placeholder="Placeholder">
+</div>
+
+<div class="field field__required">
+    <input class="field__input field__input--success" type="text" name="name" id="name" placeholder="Placeholder" required>
+</div>
+
+<div class="field">
+    <input class="field__input field__input--error"type="text" name="name" id="name" placeholder="Placeholder">
+</div>
+<div class="field field__icon">
+    <input class="field__input field__input--error" type="text" name="name" id="name" placeholder="Placeholder">
+</div>
+
+<div class="field field__required">
+    <input class="field__input field__input--error" type="text" name="name" id="name" placeholder="Placeholder" required>
+</div>
+<div class="field">
+    <select name="name" id="name" class="field__input input__select" placeholder="Placeholder">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+    </select>
+</div>
+<div class="field">
+    <textarea name="name" id="name" class="field__input" placeholder="Placeholder"></textarea>
+</div>
+</column>
+</grid>
+
+{% endblock %}

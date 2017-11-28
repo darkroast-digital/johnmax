@@ -1,0 +1,611 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>User Guide for Website Gallery</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection, print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection, print"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection, print">
+	<style type="text/css" media="screen, print">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;<a href="http://jordie.org/facebook-gallery.php?h" target="_blank">Website Gallery</a>&rdquo; by &ldquo;Jordie Bodlay&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;User Guide for Website Gallery&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 9th August 2011<br>
+					By: <a href="http://codecanyon.net/user/jordie" target="_blank">Jordie Bodlay</a><br>
+					Email: <a href="mailto:jordie@jordie.org">jordie@jordie.org</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing <a href="http://jordie.org/website-gallery.php?h"  target="_blank">Website Gallery</a>. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/jordie" target="_blank">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ul class="">
+			<li><a href="#intro">Introduction</a></li>
+			<li style="margin-top: 20px;"><a href="#add-album">Adding an Album & Photos</a></li>
+			<li><a href="#add-photos">Adding Photos to an Existing Album</a></li>
+			<li><a href="#edit-album">Editing an Album</a></li>
+			<li><a href="#delete-album">Deleting an Album</a></li>
+			<li><a href="#sort-albums">Sorting Albums</a></li>
+
+			<li style="margin-top: 20px;"><a href="#edit-photo">Editing a Photo</a></li>
+			<li><a href="#delete-photo">Deleting a Photo</a></li>
+			<li><a href="#sort-photos">Sorting Photos</a></li>
+			<li><a href="#cover-photo">Setting Cover Photo</a></li>
+			<li><a href="#view-photo">Viewing Large Photo</a></li>
+			<li><a href="#rotate-photo">Rotating the Photo</a></li>
+
+
+			<li style="margin-top: 20px;"><a href="#fb-intro">Introduction to Facebook Albums</a></li>
+			<li><a href="#fb-app">Creating a Facebook Application</a></li>
+			<li><a href="#auth-user">Authorizing a User</a></li>
+			<li><a href="#add-page">Adding a Page</a></li>
+			<li><a href="#delete-user">Deleting a User or Page</a></li>
+			<li ><a href="#add-fb-album">Adding a Facebook Album</a></li>
+			<li ><a href="#verify">Verify Facebook Users</a></li>
+			<li><a href="#refresh">Refresh Albums</a></li>
+
+			<li style="margin-top: 20px;"><a href="#settings">Settings Explained</a></li>
+			<li style="margin-top: 20px;"><a href="#language">Language Pack Files</a></li>
+
+			<li><a href="#admin-user">Editing the Control Panel Login</a></li>
+			<li style="margin-top: 20px;"><a href="#view-gallery">Viewing the Gallery</a></li>
+		</ul>
+		<hr>
+		
+		<h3 id="intro"><strong>Introduction</strong> - <a href="#toc">top</a></h3>
+
+		<p>This user guide is intended to help you with getting familiar with the control panel and usage of Website Gallery. If you have not yet installed Website Gallery, you can <a href="installation.html">view the installation guide here</a>.</p>
+		
+		<p>Website Gallery is a PHP script designed to allow you to quickly add and display a collection of albums on your website, either from photo collection on your computer or from multiple Facebook pages or user accounts.</p>
+				
+		<hr>
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="add-album"><strong>Add an Album & Photos</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To add an album, click on the button labelled "Add an Album" in your control panel.</p>
+
+		<center><img src="assets/images/add_album.png" width="401" height="138" alt="Add an album" /></center>
+
+		<p>A dialog window will then appear where you can select either to upload your own photos or import an album from Facebook. Click 'Upload photos from my computer'. (For information on adding Facebook albums, <a href="#fb-intro">click here</a>.) The next dialog window will now display, allowing you to fill in an album name, location and description. Location and description are optional. </p>
+
+		<center><img src="assets/images/add_album2.png" width="590" height="380" alt="" /></center>
+		
+		<p>Click on 'Save Album and Select Images' when you're done.  If you have Adobe Flash installed, you will see a file select window open up according to your operating system. This window will allow you to select as many files to upload as you want. You can draw a box around all the photos you want or use "shift" or "control" and your mouse click to select multiple images. This following image is from Windows:<p>
+
+		<center><img src="assets/images/select_multi.png" width="748" height="515" alt="" /></center>
+
+		<p>Once you select the files, you will see a process dialog like the following, letting you know the progress of the image upload.</p>
+
+		<center><img src="assets/images/add_album_uploading.png" width="522" height="163" alt="" /></center>
+
+		<p>Once the uploading has finished, all dialogs will close and you will view the main Website Gallery screen, where the album list will have been updated with your new album.</p>
+
+		<center><img src="assets/images/new_album.png" width="649" height="315" alt="" /></center>
+		<p>Congratulations! You have added your first albums. You can click on the "View Gallery" link in the top right of the control panel to view the albums.</p>
+		
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="add-photos"><strong>Adding Photos to an Existing Album</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To add photos to an existing album, click on the button labelled "Upload Photos" in your control panel.</p>
+
+		<center><img src="assets/images/upload-pics.png" width="358" height="125" alt="" /></center>
+
+		<p>A dialog window will then appear where you can select an album and then click the 'Select Images' button to add pictures to the selected album.</p>
+
+		<center><img src="assets/images/add-pics2.png" width="425" height="209" alt="" /></center>
+		
+		<p>Once you click on 'Select Images' and if you have Adobe Flash installed, you will see a file select window open up according to your operating system. This window will allow you to select as many files to upload as you want. You can draw a box around all the photos you want or use "shift" or "control" and your mouse click to select multiple images. This following image is from Windows:<p>
+
+		<center><img src="assets/images/select_multi2.png" width="747" height="512" alt="" /></center>
+
+		<p>Once you select the files, you will see a process dialog like the following, letting you know the progress of the image upload.</p>
+
+		<center><img src="assets/images/add_album_uploading.png" width="522" height="163" alt="" /></center>
+
+		<p>Once the uploading has finished, all dialogs will close and you will view the main Website Gallery screen with a success message shown.</p>
+
+		
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="edit-album"><strong>Editing an Album</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To edit an album, find the album on the list on the left of your control panel, and hover over it with your mouse. You will see the background darken slightly and two images appear in the top right, a cross and a pencil image. </p>
+
+		<center><img src="assets/images/album_edit1.png" width="344" height="166" alt="" /></center>
+
+		<p>If you hover over each one, labels will appear describing each one. Click on the pencil icon to edit the album.</p>
+
+		<center><img src="assets/images/album_edit2.png" width="344" height="166" alt="" /></center>
+		
+		<p>When you click on the edit image icon, you will be shown this following dialog, similar to the original 'Add Album' dialog, except you do not add images from here. <a href="#add-photos">View how to add images to an existing album</a>.<p>
+
+		<center><img src="assets/images/album_edit3.png" width="575" height="376" alt="" /></center>
+
+		<p>When you're done making changes, click 'Save Album'. The dialog will close and a success message displayed.</p>
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="delete-album"><strong>Deleting an Album</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To delete an album, find the album on the list on the left of your control panel, and hover over it with your mouse. You will see the background darken slightly and two images appear in the top right, a cross and a pencil image. </p>
+
+		<center><img src="assets/images/album_edit1.png" width="344" height="166" alt="" /></center>
+
+		<p>If you hover over each one, labels will appear describing each one. Click on the cross icon to delete the album.</p>
+
+		<center><img src="assets/images/delete_album.png" width="326" height="160" alt="" /></center>
+		
+		<p>An confirmation box will now appear, asking if you're sure you want to delete that album. If you're sure, click OK. Otherwise click cancel. The deletion of an album cannot be undone.<p>
+
+		<center><img src="assets/images/delete_album2.png" width="288" height="152" alt="" /></center>
+
+		<p>If you clicked 'OK', the album and all its pictures will be deleted, and a success message displayed.</p>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="sort-albums"><strong>Sorting Albums</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>Once you have a number of albums, you may wish to change the order in which they display. To do this, hover over the cover image of the album you wish to move. You will see the mouse cursor change to a move cross.</p>
+
+		<center><img src="assets/images/album_drag.png" width="334" height="374" alt="" /></center>
+
+		<p>Click and hold on the image and move your mouse. You will now be dragging the album. You can move it to any position. In this example, we're moving it to the top of the list.</p>
+
+		<center><img src="assets/images/album_drag2.png" width="394" height="374" alt="" /></center>
+		
+		<p>Once it's in a position you're happy with, let go of the mouse and the album will drop into place. The order of the albums will then be updated and a success message shown.<p>
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="edit-photo"><strong>Editing a Photo</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To edit a photo (i.e. change its description/name), click on the album it's contained in on the left of the control panel, then find the image on right when it appears. Hover over the image and 6 black action boxes will appear on the right of the image.</p>
+		
+		<center><img src="assets/images/image_hover.png" width="741" height="335" alt="" /></center>
+		<p>The second box from the top, with the pencil icon, lets you edit the image name. Click it to edit the image name.</p>
+
+		<center><img src="assets/images/image_edit_name.png" width="206" height="151" alt="" /></center>
+
+		<p>A dialog will now appear, allowing you to enter a name for the image. Click 'Save Image' when you're done.</p>
+
+		<center><img src="assets/images/edit_image_name.png" width="574" height="184" alt="" /></center>
+		
+		<p>Once you've saved the image name, a success message will be displayed. Now if you hover over the image, the name will be displayed on top of the image.<p>
+
+		<center><img src="assets/images/image_name_displayed.png" width="201" height="143" alt="" /></center>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="delete-photo"><strong>Deleting a Photo</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To delete a photo, click on the album it's contained in on the left of the control panel, then find the image on right when it appears. Hover over the image and 6 black action boxes will appear on the right of the image.</p>
+		
+		<center><img src="assets/images/image_hover.png" width="741" height="335" alt="" /></center>
+		<p>The first box from the top, with the cross icon, lets you delete the image. Click it to delete the image.</p>
+
+		<center><img src="assets/images/image_delete.png" width="206" height="151" alt="" /></center>
+
+		<p>A confirmation window will appear to confirm you want to delete the image. Click "OK" to delete the image, otherwise click "Cancel". Deleting an image cannot be undone.</p>
+
+		<center><img src="assets/images/confirm_delete_image.png" width="290" height="152" alt="" /></center>
+
+		<p>If you clicked "OK", the image will be deleted and removed from the album and a success message will display.</p>
+
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="sort-photos"><strong>Sorting Photos</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To sort photos in an album, click on an album on the left of the control panel, then find the picture on right that you wish to change in the order of pictures and hover over it.</p>
+		
+		<center><img src="assets/images/image_sort1.png" width="657" height="332" alt="" /></center>
+		<p>Your mouse cursor will have changed to be a move cross. Click and hold the mouse button, then drag the image to its new position.</p>
+
+		<center><img src="assets/images/image_sort2.png" width="657" height="332" alt="" /></center>
+
+		<p>Release the mouse and the image will now be saved into its new position. A success message will be displayed.</p>
+
+
+
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="cover-photo"><strong>Setting Cover Photo</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To change the cover image for an album, click on the album to view its images and then find the image you wish to be the new cover image. Hover over it and you'll see 6 black action boxes appear.</p>
+		
+		<center><img src="assets/images/image_cover1.png" width="745" height="188" alt="" /></center>
+		<p>Find the star icon, the third from the top and click it. This will change the cover image of the album to this image.</p>
+
+		<center><img src="assets/images/image_cover2.png" width="745" height="235" alt="" /></center>
+
+		<p>You will see the thumbnail next to the album change and a success message will be displayed.</p>
+
+
+
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="view-photo"><strong>Viewing Large Photo</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>If you wish to see a large version of any of the image in the control panel, click on the album to view its images and then find the image you wish to see. Hover over it and you'll see 6 black action boxes appear.</p>
+		
+		<center><img src="assets/images/view_full_image.png" width="207" height="137" alt="" /></center>
+		<p>Find the magnifying glass icon, the fourth from the top and click it. This will open a dialog with an enlarged version of the image for you to view.</p>
+
+
+
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="rotate-photo"><strong>Rotating the Photo</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To rotate an image you've already uploaded, click on the album to view its images and then find the image you wish to rotate. Hover over it and you'll see 6 black action boxes appear.</p>
+		
+		<center><img src="assets/images/image_rotate_left.png" width="206" height="151" alt="" /></center>
+		<center><img src="assets/images/image_rotate_right.png" width="206" height="151" alt="" /></center>
+		<p>The bottom two icons will allow you to rotate the image either to its left or its right. Click one of them and the image will be rotated.</p>
+
+		<center><img src="assets/images/image_rotated.png" width="207" height="137" alt="" /></center>
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="rotate-photo"><strong>Rotating the Photo</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To rotate an image you've already uploaded, click on the album to view its images and then find the image you wish to rotate. Hover over it and you'll see 6 black action boxes appear.</p>
+		
+		<center><img src="assets/images/image_rotate_left.png" width="206" height="151" alt="" /></center>
+		<center><img src="assets/images/image_rotate_right.png" width="206" height="151" alt="" /></center>
+		<p>The bottom two icons will allow you to rotate the image either to its left or its right. Click one of them and the image will be rotated.</p>
+
+		<center><img src="assets/images/image_rotated.png" width="207" height="137" alt="" /></center>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="fb-intro"><strong>Introduction to Facebook Albums</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+		<p>Website Gallery supports the ability to add albums from a Facebook 'like' page or from a personal user account.</p> 
+		
+		<p>Facebook 'like' pages are public and you can start adding albums from them straight away. See how in the <a href="#add-page">add a Facebook page section</a>. (Note: If you are only adding albums from Facebook 'like' pages and not from a personal user account, you do not need to follow the instructions below on creating a Facebook Application.)</p>
+		
+		<p>In order to access the albums from a user on Facebook, you must first receive their authorization. In order to get their authorization, you need to have a registered application on Facebook. The setup process is quick and very easy.</p>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="fb-app"><strong>Creating a Facebook Application</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		
+
+		<p>The first step is to visit <a href="https://developers.facebook.com/apps" target="_blank">https://developers.facebook.com/apps</a>. If you have never set up an application before, you will see a screen like the following:</p>
+		
+		<center><img src="assets/images/fbapp_authorize.jpg" width="790" height="450" alt="" /></center>
+		
+		<p>Click "Allow". After that, a new page will appear. Up in the top right corner, click "Create New App".</p>
+
+		<center><img src="assets/images/fbapp_newbttn.png" width="790" height="275" alt="" /></center>
+
+		<p>A new dialog box will appear like below. Give your application a name, perhaps "Example Gallery" where Example is the name of your website. Note, you cannot use "Facebook" in the name of your application. Choose a language and agree to the Terms of Use. After you click "Continue", there may or may not be a captcha image you must fill out.</p>
+
+		<center><img src="assets/images/fbapp_newwin.png" width="627" height="275" alt="" /></center>
+
+		<p>If your Facebook account has not been "verified" by Facebook, it will require you to verify it at this point. This involves entering your mobile phone number or inserting a credit card number. Once you've verified, or if you didn't need to, you will be shown the page for your new application.</p>
+
+		<p>Now you must specify what website you are going to put your application on. Click on 'Web' on the left side menu.</p>
+
+		<center><img src="assets/images/fbapp_clickweb.png" width="627" height="275" alt="" /></center>
+		
+		<p>Now you must enter your website URL and domain name in the fields, like the example in the image. In this case, Website Gallery may actually be installed at http://www.example.com/webgallery/, only http://www.example.com/ needs to be used for the "Site URL" and only www.example.com or example.com for the "Site Domain". Click "Save Changes".</p>
+
+		<center><img src="assets/images/fbapp_siteform.png" width="694" height="304" alt="" /></center>
+		
+		<p>After saving, you will be notified the change was successful. On this page, or on the About page, you will notice "App ID" and "App Secret". (See image above, though the values have been blurred out)</p>
+
+		<p>You now need to login to your Website Gallery control panel, and click on the 'Settings' in the top right of your control panel. There will be two fields here, "App Id" and "App Secret". Copy and paste these two values from the application page on Facebook to the fields in the Website Gallery dialog:</p>
+
+		<center><img src="assets/images/fbapp_copykeys.png" width="694" height="314" alt="" /></center>
+		
+		<p>Click "Save Settings". The App Id and App Secret will be saved and the control panel page will refresh.</p>
+		
+		<p>Congratulations! Your Facebook application is now set up and ready to add users!</p>
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="auth-user"><strong>Authorizing a User</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<p>Facebook has privacy security on user accounts and you can not simply download albums from any user. You must get authorization from that user in order to access their (or your) album information.</p>
+
+		<p>To authorize and add a user to Website Gallery, click on the 'Facebook Users & Pages' at the top of the control panel, then click the 'Add a  Facebook User' button.</p>
+
+		<center><img src="assets/images/fbuserspages_link.png" width="405" height="101" alt="" /></center>
+
+		<center><img src="assets/images/add_fb_user.png" width="498" height="129" alt="" /></center>
+
+		<p>A dialog window will now appear asking you to login to Facebook (in another tab/window) as the user you wish to get authorization from. Once you've confirmed that you've logged in as the correct user, click the "Continue" button.</p>
+
+		<p>You will be redirected to a page on Facebook itself to confirm authorization. Click "Allow".</p>
+		
+		<center><img src="assets/images/user_allow.png" width="592" height="401" alt="" /></center>
+
+		<p>You will be redirected back to the control panel, and the user will have been added to your control panel.</p>
+		
+		<p>You have now successfully added your first user! You can now <a href="#add-fb-album">add an album</a> using this user.</p>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="add-page"><strong>Add a Page</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<p>To add a Facebook page, click on the 'Facebook Users & Pages' at the top of the control panel, then click on the "Add a Page" button in the control panel.</p>
+		<center><img src="assets/images/fbuserspages_link.png" width="405" height="101" alt="" /></center>
+
+		<center><img src="assets/images/addfblike_page.png" width="498" height="129" alt="" /></center>
+
+		<p>A dialog window will appear. Paste the URL of the page you want to add into the text box.</p>
+		
+		<center><img src="assets/images/page_addbox.png" width="580" height="229" alt="" /></center>
+		<p>Pages that have specified a username will have a shorter URL, such as:</p>
+
+		<code>http://www.facebook.com/cocacola</code>
+
+		<p>Pages without a username will have a longer URL, which includes /pages/, the page name and most importantly the page ID number, such as:</p>
+
+		<code>http://www.facebook.com/pages/Apples/1124458773</code>
+
+		<p>Either format is acceptable, as long as the whole URL is entered.</p>
+
+		<p>Click the "Continue" button.</p>
+
+		<p>If the URL was a valid Facebook page, you will see a success message and the page will be added to the list on the left.</p>
+
+		<center><img src="assets/images/page_added.png" width="498" height="171" alt="" /></center>
+
+		<p>You have now successfully added your first page! You can now <a href="#add-fb-album">add a album</a> from this page.</p>
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="delete-user"><strong>Deleting a User or Page</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+		<p>In order to delete a user or page, click on the 'Facebook Users & Pages' at the top of the control panel, then you will see a list of users and/or 'like' pages that you've added. Hover over the name of the user or page in the list. When hovered over, an X will appear to the right. Click this X and a confirmation window will appear.</p>
+		<center><img src="assets/images/delete_user_hover1.png" width="498" height="188" alt="" /></center>
+		<center><img src="assets/images/delete_user_hover2.png" width="498" height="195" alt="" /></center>
+
+		<p>Take note of the message, where all albums that were added using this user will also be deleted.</p>
+
+		<p>When you are sure you wish to delete this user or page, click the "OK" button.</p>
+
+		<center><img src="assets/images/user_deleted.png" width="498" height="163" alt="" /></center>
+		
+		<p>If successful, you will see a message like the one above and the user or page and its albums will have been removed from the application.</p>
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="add-fb-album"><strong>Add a Facebook Album</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+		<p>To add an album, click on the button labelled "Add an Album" in your control panel.</p>
+
+		<center><img src="assets/images/add_album.png" width="401" height="138" alt="Add an album" /></center>
+
+		<p>A dialog window will then appear where you can select to upload images from your computer or import an album from Facebook. Click 'Import an album from Facebook'. (If you wish to upload images from your computer, <a href="#add-album">click here to read the add an album section</a>.)</p>
+
+		<center><img src="assets/images/album_adddialog.png" width="402" height="182" alt="" /></center>
+		
+		<p>The next dialog window will now display all accessible albums for this user or page. Click on the albums that you wish to import into Website Gallery. You can select as many as you wish. Then click "Use Selected Albums".<p>
+
+		<center><img src="assets/images/albums_select.png" width="540" height="578" alt="" /></center>
+
+		<p>The albums will now be downloaded and/or imported into Website Gallery. You will be shown the progress of this import. It may take a few minutes per album, depending on your server's internet connection.</p>
+
+		<center><img src="assets/images/albums_downloading.png" width="540" height="176" alt="" /></center>
+
+		<p>Do not close the window or tab, otherwise the albums will not be imported correctly or completely.</p>
+
+		<p>Once the importing has finished, you will see a success message and the albums will appear in the album list on the left of your control panel.</p>
+
+		<center><img src="assets/images/albums_added.png" width="667" height="424" alt="" /></center>
+
+		<p>Congratulations! You have added your first albums. You can click on the "View Gallery" link in the top right of the control panel to view the albums.</p>
+		
+	
+		<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="verify"><strong>Verify Users</strong> - <a href="#toc">top</a></h3>
+		<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		
+		<p>If a user changes their password, or some other privacy setting, Facebook may automatically de-authorize any application. It may also occur for other reasons. To check if this has happened, click on the 'Facebook Users & Pages' at the top of the control panel,  then click the button "Verify Users" above the user list. All the users will then be checked to see if they are correctly authorized. (Note: Pages need no authorization and will not be checked.)</p>
+		
+		<center><img src="assets/images/verify_users.png" width="495" height="313" alt="" /></center>
+
+		<p>If a user is found de-authorized, a yellow exclamation mark will appear to the right on the user's name. Click this exclamation mark to re-authorize the user.</p>
+		
+		<center><img src="assets/images/verify2.png" width="495" height="313" alt="" /></center>
+		
+		<p>The steps from here are the same as the <a href="#auth-user">original authorization process</a>.
+
+
+
+		<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="refresh"><strong>Refresh Albums</strong> - <a href="#toc">top</a></h3>
+		<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+		<p>Website Gallery downloads your selected Facebook albums from Facebook to your website. These albums are automatically kept up to date. The updates may take 1 hour to reflect changes on Facebook. If you would like to see any changes made to an album on Facebook reflected immediately, then you can use the 'Refresh Album' feature. </p>
+		
+		<p>To do, this, find the Facebook album you wish to refresh on the left of the control panel and hover over it. You will see 3 icons appear, the third icon from the top will be the "Refresh Album" icon. Click this to update the album from Facebook.</p>
+
+		<center><img src="assets/images/refresh_album.png" width="325" height="116" alt="" /></center>
+
+		<p>A progress screen will appear showing which albums are currently being updated.</p>
+
+		<center><img src="assets/images/refresh2.png" width="589" height="170" alt="" /></center>
+
+		<p>When the process is finished, you will be shown a success message.</p>
+
+		<p>A progress screen will appear showing the status of updating the album. When the process is finished, you will be shown a success message.</p>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="settings"><strong>Settings Explained</strong> - <a href="#toc">top</a></h3>
+		<!-- ------------------------------------------------------------------------------------------------------------------ -->
+			
+			<p>In your control panel, up in the top right hand corner there is a link to a Settings dialog.</p>
+			<center><img src="assets/images/setting_link.png" width="511" height="106" alt="" /></center>
+
+			<p>Clicking on this link brings up a dialog like the following.</p>
+
+			<center><img src="assets/images/settings_dialog.png" width="567" height="384" alt="" /></center>
+
+			
+			<p>There are six fields, Application Id, Application Secret and View Gallery URL. The Application Id and Secret are <a href="#fb-app">explained and used when creating a Facebook Application.</a></p>
+
+			<p>The third field "View Gallery URL" allows you to change the web address used for the "View Gallery" link in the top right of your control panel (right near where you just clicked "Settings" to view this dialog).</p>
+			
+			<p>By default it links to the default page for the gallery, however if you have included the gallery into Wordpress or another PHP application, you can change this field to the URL where your Gallery is displayed. If you are entering a full URL instead of a path, make sure it begins with "http". If it starts with just "www.", the link will not work.</p>
+
+			<p>The fourth field lets you choose the "Photo Source". This means where the photos in your Facebook albums are coming from, when users view the gallery on your website. You can choose to load them from Facebook directly (saving you bandwidth) or have the photos downloaded to your server and displayed from your server (ensuring availability).</p>
+
+						<p>The fifth and sixth fields allow you to turn on or off the Facebook 'like' and comment features that appear under each photo.</p>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="language"><strong>Language Pack Files</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+		<p>Most text used in the control panel are located in two language files. The exceptions to these are this user guide, the installation guide, and text that is used on images. These images can be found in /admin/images/.</p>
+
+		<p>The language pack files can be found in the <span class="file">/webgallery/admin/language/</span> folder. There will be two files, <span class="file">js.ini</span> and <span class="file">php_html.ini</span>. The separation of the files only represents how they are displayed to the user, either through Javascript calls or through HTML/PHP. This should have no bearing on your translation of the files. The language files contain what are called 'Language Variables'. They will look like this:</p>
+
+		<code>LanguageVarName = "This is an example sentence"</code>
+
+		<p>On the left if the name of the language variable, on the right is the value text. Only translate the right side, i.e. the value text. Ensure the double quotes still surround the text.</p>
+
+		<p>An example of a German translation would look like:</code>
+
+		<code>LanguageVarName = "Dies ist ein Beispielsatz"</code>
+
+		<p>Note only the right hand side has been changed.</p>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="admin-user"><strong>Editing the Control Panel Login</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+		<p>When you first installed Website Gallery, you selected a username and password. If you wish to change this username and password, you can do this from the control panel by clicking the 'User Options' link in the top right of the control panel.</p>
+
+		<center><img src="assets/images/user_options.png" width="544" height="108" alt="" /></center>
+
+		<p>A dialog window will then appear and give you the option to change your username and/or password.</p>
+
+		<center><img src="assets/images/user_dialog.jpg" width="621" height="450" alt="" /></center>
+
+		<p>If you only want to change your username, then do NOT fill in any password field. If you wish to change your password, you must enter your current password, then your new password and then the new password a second time to confirm you typed it correctly.</p>
+
+		<p>Click "Save Changes", then the next time you login you'll need to use the new username and/or password.</p>
+
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+		<h3 id="view-gallery"><strong>Viewing the Gallery</strong> - <a href="#toc">top</a></h3>
+<!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+		<p>Once you have added some albums, you may want to see your Gallery! The Gallery can be viewed by clicking on the "View Gallery" link in the top right of the control panel.</p>
+
+		<center><img src="assets/images/viewgallery_link.png" width="438" height="108" alt="" /></center>
+
+		<p>This will show you the default gallery view. You may also include the gallery into your PHP website, using the <a href="installation.html#other_script" target="_blank">instructions in the installation guide</a>.
+
+		<p>If you have your gallery displayed on another page on your website through PHP includes, you can change the page the "View Gallery" link links to <a href="#settings">through the settings dialog</a>.</p>
+
+
+		<hr>
+	<!-- Start View FAQ  -->
+
+		<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<!-- ------------------------------------------------------------------------------------------------------------------ -->
+		<hr>
+
+		<p><center>The End<br />If you require any help at all, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/jordie" target="_blank">here</a></center></p> 
+
+		
+		<p class="append-bottom alt large"><strong>Jordie Bodlay</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

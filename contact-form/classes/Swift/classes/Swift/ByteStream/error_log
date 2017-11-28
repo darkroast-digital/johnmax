@@ -1,0 +1,6 @@
+[10-Jun-2014 15:05:27] PHP Fatal error:  Interface 'Swift_InputByteStream' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/ByteStream/AbstractFilterableInputStream.php on line 22
+[10-Jun-2014 15:05:27] PHP Fatal error:  Interface 'Swift_InputByteStream' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/ByteStream/ArrayByteStream.php on line 21
+[10-Jun-2014 15:05:27] PHP Fatal error:  Class 'Swift_ByteStream_AbstractFilterableInputStream' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/ByteStream/FileByteStream.php on line 23
+[10-Jun-2014 15:05:28] PHP Fatal error:  Interface 'Swift_InputByteStream' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/ByteStream/AbstractFilterableInputStream.php on line 22
+[10-Jun-2014 15:05:28] PHP Fatal error:  Interface 'Swift_InputByteStream' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/ByteStream/ArrayByteStream.php on line 21
+[10-Jun-2014 15:05:29] PHP Fatal error:  Class 'Swift_ByteStream_AbstractFilterableInputStream' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/ByteStream/FileByteStream.php on line 23

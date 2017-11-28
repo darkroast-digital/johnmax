@@ -1,0 +1,12 @@
+{
+    "require": {
+        "slim/twig-view": "1.2",
+        "phpmailer/phpmailer": "^5.2",
+        "slim/slim": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shiva\\": "shiva"
+        }
+    }
+}

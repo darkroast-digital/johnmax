@@ -1,0 +1,6 @@
+[17-Feb-2015 19:33:06 UTC] PHP Fatal error:  Call to a member function setSuccessMessage() on a non-object in /home/johnmax/public_html/jobs-form/config.dougall.php on line 7
+[17-Feb-2015 19:33:54 UTC] PHP Fatal error:  Call to a member function setSuccessMessage() on a non-object in /home/johnmax/public_html/jobs-form/config.dougall.php on line 7
+[17-Feb-2015 19:33:57 UTC] PHP Fatal error:  Call to a member function setSuccessMessage() on a non-object in /home/johnmax/public_html/jobs-form/config.lauzon.php on line 7
+[17-Feb-2015 19:34:01 UTC] PHP Fatal error:  Call to a member function setSuccessMessage() on a non-object in /home/johnmax/public_html/jobs-form/config.php on line 7
+[17-Feb-2015 19:34:30 UTC] PHP Fatal error:  Call to a member function setSuccessMessage() on a non-object in /home/johnmax/public_html/jobs-form/config.dougall.php on line 7
+[17-Feb-2015 21:31:51 UTC] PHP Fatal error:  Call to a member function setSuccessMessage() on a non-object in /home/johnmax/public_html/jobs-form/config.dougall.php on line 7

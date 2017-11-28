@@ -1,0 +1,28 @@
+{% extends 'layouts/app.twig' %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<form action="{{ path_for('post') }}" method="post" class="form__auth" id="form">
+    <h6 style="margin:0 0 1rem;">Is the weather fit for play?</h6>
+    <grid>
+    <column is12>
+    <label class="field__radio"><input type="radio" name="weather" value="good"><span class="field__radio-input"></span> Yes</label>
+    </column>
+    <column is12>
+    <label class="field__radio"><input type="radio" name="weather" value="fair"><span class="field__radio-input"></span> Maybe</label>
+    </column>
+    <column is12>
+    <label class="field__radio"><input type="radio" name="weather" value="bad"><span class="field__radio-input"></span> No</label>
+    </column>
+    <column is12>
+    <button type="submit">Submit</button>
+    </column>
+    </grid>
+</form>
+
+<form action="{{ path_for('auth.logout') }}" method="post" style="max-width: 50%;margin: 2rem auto;">
+    <button type="submit">Logout</button>
+</form>
+
+{% endblock %}

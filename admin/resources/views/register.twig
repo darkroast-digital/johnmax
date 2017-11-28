@@ -1,0 +1,28 @@
+{% extends 'layouts/app.twig' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<form action="{{ path_for('auth.register') }}" method="post" class="form__auth">
+    <a href="{{ path_for('home') }}"><img src="{{ img('logo.svg') }}" draggable="false"></a>
+    <grid>
+        <column is12>
+        <div class="field field__icon field__email">
+            <input class="field__input"type="email" name="email" id="email" placeholder="Email">
+        </div>
+        </column>
+        <column is12>
+        <div class="field field__icon field__username">
+            <input class="field__input"type="text" name="username" id="username" placeholder="Username">
+        </div>
+        </column>
+        <column is12>
+        <div class="field field__icon field__password">
+            <input class="field__input"type="password" name="password" id="password" placeholder="Password">
+        </div>
+        </column>
+        <button type="submit">Send</button>
+    </grid>
+</form>
+
+{% endblock %}

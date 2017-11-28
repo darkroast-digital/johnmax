@@ -1,0 +1,6 @@
+[10-Jun-2014 15:05:31] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Encoder/Base64Encoder.php on line 19
+[10-Jun-2014 15:05:31] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Encoder/QpEncoder.php on line 21
+[10-Jun-2014 15:05:31] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Encoder/Rfc2231Encoder.php on line 20
+[10-Jun-2014 15:05:32] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Encoder/Base64Encoder.php on line 19
+[10-Jun-2014 15:05:32] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Encoder/QpEncoder.php on line 21
+[10-Jun-2014 15:05:32] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/johnmax/public_html/contact-form/classes/Swift/classes/Swift/Encoder/Rfc2231Encoder.php on line 20

@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Website Gallery Installation Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;<a href="http://jordie.org/facebook-gallery.php?h" target="_blank">Website Gallery</a>&rdquo; Documentation by &ldquo;Jordie Bodlay&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Website Gallery - Installation Guide&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 9th August 2011<br>
+					By: <a href="http://codecanyon.net/user/jordie" target="_blank">Jordie Bodlay</a><br>
+					Email: <a href="mailto:jordie@jordie.org">jordie@jordie.org</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing <a href="http://jordie.org/website-gallery.php?h">Website Gallery</a>. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/jordie" target="_blank">here</a>.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ul class="">
+			<li><a href="#intro">Introduction</a></li>
+			<li><a href="#step1">Step 1 - Database Details</a></li>
+			<li><a href="#step2">Step 2 - Upload</a></li>
+			<li><a href="#step3">Step 3 - Web Installation</a></li>
+			<li><a href="#step4">Step 4 - Accessing the Control Panel</a></li>
+			<li><a href="#step5">Step 5 - Viewing the Gallery</a></li>
+		</ul>
+		<ul>
+			<li><a href="#wordpress">Adding the Gallery to Wordpress</a></li>
+			<li><a href="#other_script">Including the Gallery into another PHP Script</a></li>
+			<li><a href="#cron">Setting up Cron</a></li>
+		</ul>
+		
+		<hr>
+		
+		<h3 id="intro"><strong>Introduction</strong> - <a href="#toc">top</a></h3>
+<p>Website Gallery is a PHP script designed to allow you to quickly add and display a collection of albums on your website from multiple Facebook pages or user accounts.</p>
+<p>Installing Website Gallery is easy. If you have any problems or require any help, don't hesitate to contact me via <a href="http://codecanyon.net/user/jordie" target="_blank">my profile page on codecanyon.net</a>.</p>
+
+<p>Website Gallery requires the use of a MySQL database. Please ensure you have your database details ready for installation. These can usually be found in your web-hosting control panel.</p>
+		<hr>
+		<h3 id="step1"><strong>Step 1 - Database Details</strong> - <a href="#toc">top</a></h3>
+
+		<p>Before you upload anything to your website, in the webgallery directory you will find a file called <span class="file">wg_config.php</span>. Edit this file with a text editor and insert your MySQL database details. These are the lines to change:
+	<code>
+define ('WG_DB_HOST', 'localhost');<br/>
+define ('WG_DB_USER', '');<br />
+define ('WG_DB_PASS', '');<br />
+define ('WG_DB_NAME', '');<br />
+	</code>
+	<p>As an example, lets say your hostname stays as <span class="file">localhost</span> (usually the case, and if you can't find what your hostname is, it will probably be 'localhost'), your username is <span class="file">my_user</span>, your password is <span class="file">example</span> and your database name is <span class="file">my_database</span> then this is what you should have:
+	<code>
+define ('WG_DB_HOST', 'localhost');<br/>
+define ('WG_DB_USER', 'my_user');<br />
+define ('WG_DB_PASS', 'example');<br />
+define ('WG_DB_NAME', 'my_database');<br />
+	</code>
+
+		<hr>
+
+		<h3 id="step2"><strong>Step 2 - Upload</strong> - <a href="#toc">top</a></h3>
+
+<p>Upload the files from the package using FTP to a location that is accessible via the web. It is usually best to upload these files to their own folder, such as a folder called <span class="file">webgallery</span> that would be located at <span class="file">http://www.example.com/webgallery/</span>.</p>
+
+<p>Once the files are uploaded, you will see a folder called <span class="file">photos</span>. You must make this directory writeable. For unix-based servers, this means using your FTP client to CHMOD this diretory to 757 or 775 (depending on your server set up).</p>
+
+		<hr>
+		
+		<h3 id="step3"><strong>Step 3 - Web Installation</strong> - <a href="#toc">top</a></h3>
+	
+	<p>Once the files are located somewhere that is accessible via the web, you'll be able to install the script (provided your MySQL details are correct). Navigate to the <span class="file">admin</span> folder in your installation. For example, if you installed the Website Gallery script at <span class="file">http://www.example.com/webgallery/</span> then point your web-browser to <span class="file">http://www.example.com/webgallery/admin/</span></p>
+	<p>Once the page has loaded, it will ask you for a username and a password to set for the control panel access. Enter your desired username and password and click 'Install'. If the installation is successful, you'll be redirected to the control panel to login.</p>
+<hr>
+			<h3 id="step4"><strong>Step 4 - Accessing the Control Panel</strong> - <a href="#toc">top</a></h3>
+	
+	<p>After the web installation, you will be directed to your control panel. You can login using the username and password you selected during installation.</p>
+	<p>For future use, your control panel can always be accessed at <span class="file">http://www.example.com/webgallery/admin/</span>.</p>
+	<p>For more information on using the Control Panel, see the <a href="index.html">User Guide</a>.</p>
+
+	<hr>
+		
+		<h3 id="step5"><strong>Step 5 - Viewing the Gallery</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Using the above installation example, you can view your gallery at <span class="file">http://www.example.com/webgallery/webgallery.php</span>. When viewing the control panel, you can click on the "View Gallery" link in the top right and it will take you to this page.</p>
+
+		<hr>
+		
+			
+		<h3 id="wordpress"><strong>Installing the Website Gallery Plugin to Wordpress</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Website Gallery is really easy to include into Wordpress. A plugin has been included to make this step simple. In the ZIP file that you downloaded from CodeCanyon, you will see a directory called <span class="file">wordpress_plugin</span>. Inside this directory is a file called <span class="file">webgallery.php</span> and a folder called 'webgallery'. Upload this both the file and folder into the plugins directory in your Wordpress installation. This should be: <span class="file">wp-content/plugins/</span>.</p>
+
+	<p>Once it is located in the correct folder, login to your Wordpress admin and click on 'Plugins' on the left menu. You will now see "Website Gallery" listed among the plugins. Click the "Activate" link below it to enable the plugin.</p>
+		<center><img src="assets/images/wp_plugins.png" width="457" height="406" alt="" /></center>
+		
+		<p>Once activated, click the arrow next to "Settings" on the left menu to expand the sub-menu.</p>
+<center><img src="assets/images/wordpress_settings.png" width="164" height="251" alt="" /></center>
+		<p>Then click the "Website Gallery" link.</p>
+
+<center><img src="assets/images/wp_wbg.png" width="161" height="226" alt="" /></center>
+
+
+<p>You will then be presented with a page like the following, with 1 option.</p>
+<center><img src="assets/images/wp_wbg_settings.png" width="612" height="210" alt="" /></center>
+
+<p>The "Gallery Path" will be blank to begin with, you need to enter the path on your server to the Website Gallery directory. (note: this is the server path and not the URL). You can click the "Find it for me" button and the plug-in will attempt to find the installation. </p>
+
+<p>If the "Find it for me" button was not successful in finding the Website Gallery, you'll need to go to your Website Gallery admin and click on the 'Script Info' in the top right. Ensure the 'Insert to Wordpress' tab is selected. You should see something like the below:</p>
+
+<center><img src="assets/images/fullpath.png" width="583" height="330" alt="" /></center>
+<p>Copy the path to Wordpress.</p>
+
+<p>Once the path has been saved, you can now add or edit a page or post in Wordpress. In the editor you will see a new button as in this image:</p>
+
+<center><img src="assets/images/example.jpg" width="545" height="92" alt="" /></center>
+
+<p>Click this button and you'll be able to insert the gallery, a single album or a slider into the page. It does this by inserting a special placeholder code into the page. This code represents where the gallery, album or slider will be displayed.</p>
+
+<center><img src="assets/images/add_gallery.png" width="608" height="173" alt="" /></center>
+
+<center><img src="assets/images/add_slider.png" width="737" height="190" alt="" /></center>
+
+
+		<h3 id="other_script"><strong>Including into another PHP Script</strong> - <a href="#toc">top</a></h3>
+
+<p>If you're installing into any other PHP script, you can get the PHP code you need to use by clicking on the 'Script Info' link at the top of your control panel.</p>
+
+<p>This dialog will give you the PHP code to insert into your PHP page to include the gallery. There will be other tabs where you can generate code to insert just a single album or a slider onto a page.</p>
+<center><img src="assets/images/include_gallery.png" width="583" height="330" alt="" /></center>
+
+	
+
+		<hr>
+		<p>Once again, thank you so much for purchasing this script. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Jordie Bodlay</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
